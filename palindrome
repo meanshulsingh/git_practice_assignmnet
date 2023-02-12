@@ -1,0 +1,16 @@
+let N=6;
+let str='anshul'
+
+  let put=0;
+
+  for(i=0;i<N;i++){
+     if(str[i]!=str[N-i-1]){
+          put=1;
+          break;
+      }
+  }
+  if(put==1){
+      console.log("No");
+  }else {
+      console.log("Yes")
+  }
