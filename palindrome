@@ -14,3 +14,9 @@ let str='anshul'
   }else {
       console.log("Yes")
   }
+
+// just a different logic for palidrome check;
+
+// const str = 'anshul';
+// const isPalindrome = str === str.split('').reverse().join('');
+// console.log(isPalindrome ? 'Yes' : 'No');
