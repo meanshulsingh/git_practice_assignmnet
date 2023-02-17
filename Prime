@@ -13,3 +13,37 @@ let num=13;
  else {
      console.log("Yes");
  }
+
+
+//better approach for prime
+
+//  const isPrime = (num) => {
+//     if (num < 2) {
+//       return false;
+//     }
+//     if (num === 2 || num === 3) {
+//       return true;
+//     }
+//     if (num % 2 === 0 || num % 3 === 0) {
+//       return false;
+//     }
+//     let i = 5;
+//     let w = 2;
+//     while (i * i <= num) {
+//       if (num % i === 0) {
+//         return false;
+//       }
+//       i += w;
+//       w = 6 - w;
+//     }
+//     return true;
+//   };
+  
+//   const num = 13;
+  
+//   if (isPrime(num)) {
+//     console.log("Yes");
+//   } else {
+//     console.log("No");
+//   }
+  
